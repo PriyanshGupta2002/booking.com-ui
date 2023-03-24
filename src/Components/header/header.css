@@ -1,0 +1,140 @@
+.header{
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+.listMode{
+    margin: 20px 0px 40px 0px;
+}
+.headerList{
+ display: flex;
+ gap: 40px;
+}
+.headerListItem{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.headerListItem.active{
+    border: 2px solid white;
+    padding: 7px 7px;
+    border-radius: 21px;
+}
+.headerTitle{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.headerDesc{
+    margin: 1.1rem 0rem;
+}
+.headerBtn{
+    padding: 7px;
+    cursor: pointer;
+    border: none;
+    background-color: #0071C2;
+    color: white;
+}
+.headerSearch{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-around;
+    background-color: white;
+    border: 3px solid #febb02;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+    position: absolute;
+    height: 50px;
+    gap: 13px;
+    padding: 7px;
+}
+.headerSearchItem{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    color: grey;
+    position: relative;
+    cursor: pointer;
+}
+.headerSearchItem input{
+border: none;
+outline: none;
+width: 100%;
+}
+
+.personText{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.searchbtn{
+    background-color: #0071C2;
+    padding: 11px 54px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.date{
+    position: absolute;
+    z-index: 2;
+    top: 44px;
+}
+.calendarIcon{
+    cursor: pointer;
+}
+.options{
+    position: absolute;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px 9px;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 500;
+    box-shadow: -8px 0px 10px 0px rgb(212 212 212);
+    border-radius: 12px;
+    z-index: 3;
+    background-color: white;
+    font-size: 15px;
+    box-shadow: 3px 4px 5px 2px rgb(0 0 0 / 20%);
+}
+.optionBtn{
+    padding: 2px 12px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #0071C2;
+    font-size: 19px;
+    cursor: pointer;
+    color: #0071C2;
+}
+.optionItem{
+    display: flex;
+    gap: 10px;
+    width: 236px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.optionText{
+    color: grey;
+}
+.personText{
+    cursor: pointer;
+}
+.disabled{
+    cursor: not-allowed;
+}

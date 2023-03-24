@@ -1,0 +1,48 @@
+.mail{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #003580;
+    padding: 2.6rem 0rem;
+    gap: 2rem;
+    margin-top: 14px ;
+}
+.titles{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.87rem;
+}
+.titles h1{
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+.titles p{
+    font-size: 1rem;
+}
+.mailInputContainer{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+.mailInputContainer input{
+padding: 17px 8px;
+width: 20vw;
+outline: none;
+border:none;
+border-radius: 5px;
+font-size: 1rem;
+}
+.mailButton{
+    padding: 18px 15px;
+    background-color:  #0071c2;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+}   

@@ -1,0 +1,38 @@
+.fp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1024px;
+    gap: 20px;
+    margin: 2px 0px;
+}
+.fpItem{
+    border-radius: 12px;
+    overflow: hidden;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.fpImg{
+    width: 100%;
+    object-fit: cover;
+    height: 9rem;
+}
+.fpName{
+    font-weight: 700;
+}
+.fpRating {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 7px 0px;
+}
+.fpRating button{
+    padding: 7px;
+    border:none;
+    background-color: #003580;
+    color: aliceblue;
+}
